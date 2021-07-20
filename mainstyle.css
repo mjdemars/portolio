@@ -1,0 +1,205 @@
+.content {
+  margin-top: 100px;
+}
+
+.module {
+  cursor: 'mouse.png', auto;	
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Satisfy', cursive;
+  font-size: 60px;
+}
+
+p {text-align: center;}
+div {text-align: center;}
+
+.h2 {
+    font-family: 'Encode Sans SC', sans-serif;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #db7986;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #d9d8bf;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #a3c8d9;
+  color: white;
+}
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #db7986;
+  color: white;
+  font-size: 30px;
+}
+
+/*typewriter effect code*/
+.typewriter p {
+    font-family: 'Encode Sans SC', sans-serif;
+    font-size: 20px;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid rgb(255, 255, 255); /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .10em; /* Adjust as needed */
+    animation: 
+      typing 4.0s steps(50, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white; }
+  }
+
+/* rainbow text hover https://fossheim.io/writing/posts/css-text-gradient/ */
+.rainbow-text {
+  background: #8f3541;
+  background-color: #8f3541;
+  background: conic-gradient(
+    #8f3541 16.666%, 
+    #db7986 16.666%, 
+    #db7986 33.333%, 
+    #d9d8bf 33.333%, 
+    #d9d8bf 50%, 
+    #a3c8d9 50%, 
+    #a3c8d9 66.666%, 
+    #597e8f 66.666%, 
+    #597e8f 83.333%, 
+    #8f3541 83.333%);
+  
+  background-size: 30%;
+  background-repeat: repeat;
+  
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  
+  animation: rainbow-text-animation-rev 0.5s ease forwards;
+
+  cursor: pointer;
+}
+
+.rainbow-text:hover {
+  animation: rainbow-text-animation 0.5s ease forwards;
+}
+
+@keyframes rainbow-text-animation {
+  0% {
+    background-size: 30%;
+    background-position: 0 0;
+  }
+  20% {
+    background-size: 30%;
+    background-position: 0 1em;
+  }
+  100% {
+    background-size: 400%;
+    background-position: -9em 1em;
+  }
+}
+
+@keyframes rainbow-text-animation-rev {
+  0% {
+    background-size: 400%;
+    background-position: -9em 1em;
+  }
+  20% {
+    background-size: 30%;
+    background-position: 0 1em;
+  }
+  100% {
+    background-size: 30%;
+    background-position: 0 0;
+  }
+}
+
+.rainbow-text2 {
+  background: #8f3541;
+  background-color: #8f3541;
+  background: conic-gradient(
+    #a3c8d9 16.666%, 
+    #ffffff 16.666%, 
+    #ffffff 33.333%, 
+    #d9d8bf 33.333%, 
+    #d9d8bf 50%, 
+    #d9d8bf 50%, 
+    #d9d8bf 66.666%, 
+    #d9d8bf 66.666%, 
+    #d9d8bf 83.333%, 
+    #a3c8d9 83.333%);
+  
+  background-size: 30%;
+  background-repeat: repeat;
+  
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  
+  animation: rainbow-text-animation-rev 0.5s ease forwards;
+
+  cursor: pointer;
+}
+
+.rainbow-text2:hover {
+  animation: rainbow-text-animation 0.5s ease forwards;
+}
+
+@keyframes rainbow-text2-animation {
+  0% {
+    background-size: 30%;
+    background-position: 0 0;
+  }
+  20% {
+    background-size: 30%;
+    background-position: 0 1em;
+  }
+  100% {
+    background-size: 400%;
+    background-position: -9em 1em;
+  }
+}
+
+@keyframes rainbow-text2-animation-rev {
+  0% {
+    background-size: 400%;
+    background-position: -9em 1em;
+  }
+  20% {
+    background-size: 30%;
+    background-position: 0 1em;
+  }
+  100% {
+    background-size: 30%;
+    background-position: 0 0;
+  }
+}
