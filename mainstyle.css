@@ -24,12 +24,26 @@ div {text-align: center;}
   margin-top: 30px;
 }
 
+table {
+  border: 2px solid white;
+  border-collapse: collapse;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td {
+  border: 1px solid white;
+  padding:1em;
+  font-size: 1.4em;
+}
+
 /* Create two equal columns that floats next to each other */
 .column {
   float: center;
   flex:50%;
   width: 50%;
-  padding-top: 4em;
+  padding-top: 2em;
   padding-left: 8em;
   padding-right: 8em;
 }
