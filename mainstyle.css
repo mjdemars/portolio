@@ -17,11 +17,11 @@ h1 {
 p {text-align: center;}
 div {text-align: center;}
 
-.h2 {
+h2 {
   font-family: 'Encode Sans SC', sans-serif;
-  font-size: 40px;
-  margin-bottom: 30px;
-  margin-top: 30px;
+  font-size: 2em;
+  margin-bottom: 0.5em;
+  margin-top: 1em;
 }
 
 table {
@@ -39,6 +39,7 @@ td {
 }
 
 /* Create two equal columns that floats next to each other */
+/* can create multicolumn layout different ways: w3schools bootstrap is one way*/
 .column {
   float: center;
   flex:50%;
@@ -52,6 +53,7 @@ td {
   display: flex;
 }
 
+/* old color hex: #db7986 */
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #db7986;
@@ -77,8 +79,8 @@ td {
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #a3c8d9;
-  color: white;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
 }
 
 .typewriter_header {
